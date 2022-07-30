@@ -3,7 +3,15 @@ import './style.css'
 
 function Login() {
   return (
-    <div className='login-container'>Login</div>
+    <div className='login-container'>
+      <form className='login-form'>
+        <h1>Bienvenido!</h1>
+        <input type='text' placeholder='Username' />
+        <input type='password' placeholder='Password' />
+        <button type='submit'>Login</button>
+        <p>¿No tienes una cuenta? <a href='/register'>Registrate</a></p>
+      </form>
+    </div>
   )
 }
 

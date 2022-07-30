@@ -1,0 +1,9 @@
+.main-dashboard {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}

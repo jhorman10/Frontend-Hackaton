@@ -47,6 +47,18 @@
   align-items: center;
 }
 
+.dashboard{
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

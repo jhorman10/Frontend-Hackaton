@@ -1,10 +1,20 @@
-import React from 'react'
-import './style.css'
+import React from 'react';
+import Footer from './components/Footer';
+import NavBar from './components/NavBar';
+import SideBar from './components/SideBar';
+import './style.css';
 
 function Dashboard() {
   return (
-    <div>Dashboard</div>
-  )
+    <div className="main-dashboard">
+      <NavBar />
+      {/**
+       * aqui va el contenido de la pagina
+       */}
+      <SideBar />
+      <Footer />
+    </div>
+  );
 }
 
-export default Dashboard
+export default Dashboard;
