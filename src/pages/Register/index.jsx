@@ -12,6 +12,8 @@ function Register() {
         <input type="text" name="lastName" />
         Email:
         <input type="text" name="email" />
+        Cedula:
+        <input type="number" name="cedula" />
         Password:
         <input type="password" name="password" />
         Confirm Password:
