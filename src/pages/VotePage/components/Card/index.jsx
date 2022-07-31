@@ -1,12 +1,13 @@
 import React from 'react';
 import './style.css';
 
-function Card({candidates}) {
+function Card({candidates}, isActive, handleClickVote) {
+  console.log(isActive);
   return (
     <div className='cards'>
       {candidates.map(({img, name, lastName}, index) => {
         return (
-          <div className="card-main" key={index}>
+          <div className={`card-main${isActive ? '-active' : null}`} onClick={handleClickVote} key={index}>
             <div className="card-image">
               <img src={img} alt={name} />
             </div>
