@@ -1,0 +1,27 @@
+.main-vote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+.security-msn-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.vote-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}

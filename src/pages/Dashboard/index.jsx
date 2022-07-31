@@ -6,7 +6,6 @@ import Voted from './../Voted';
 import Results from './../Results';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
-import SideBar from './components/SideBar';
 import './style.css';
 
 function Dashboard() {
@@ -23,7 +22,6 @@ function Dashboard() {
           </Routes>
         </BrowserRouter>
       </div>
-      <SideBar />
       <Footer />
     </div>
   );
