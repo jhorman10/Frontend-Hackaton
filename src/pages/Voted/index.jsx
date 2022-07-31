@@ -23,7 +23,7 @@ function Voted() {
         </div>
         <div className='voted-info'>
           <p>
-            Nombre completo: {name} - {lastname}
+            Nombre completo: {name} {lastname}
           </p>
           <p>Fecha y hora: {date}</p>
           <button>Generar certificado</button>
