@@ -8,12 +8,14 @@
 }
 
 .img-security {
-  width: 100px;
-  height: 100%;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 5px;
 }
 
 .p-security {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
   color: #000;
   text-align: center;
