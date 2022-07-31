@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Card from './components/Card';
 import SecurityMsn from './components/SecurityMsn';
 import candidates from './components/data/candidates.json';
@@ -7,10 +8,16 @@ import './style.css';
 
 function VotePage() {
   const [isActive, setIsActive] = useState(false);
+  let navigate = useNavigate();
 
   const handleClickVote = () => {
+    navigate('/voted');
+  };
+
+  const handleSelectCandidate = (candidate) => {
     setIsActive(true);
   };
+
   const handleClickRestart = () => {
     setIsActive(false);
   };
@@ -23,11 +30,11 @@ function VotePage() {
         <Card
           candidates={candidates}
           isActive={isActive}
-          handleClickVote={handleClickVote}
+          handleSelectCandidate={handleSelectCandidate}
         />
       </div>
       <div className="buttons-vote-container">
-        <button type="button" className="vote-button">
+        <button type="button" className="vote-button" onClick={handleClickVote}>
           Votar
         </button>
         <button
