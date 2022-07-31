@@ -8,10 +8,10 @@ import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 import './style.css';
 
-function Dashboard() {
+function Dashboard(setIsLog) {
   return (
     <div className="main-dashboard">
-      <NavBar />
+      <NavBar setIsLog={setIsLog}/>
       <div className="main-container">
         <BrowserRouter>
           <Routes>

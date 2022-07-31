@@ -22,7 +22,7 @@ function App() {
           handleLogin={handleLogin}
         />
       ) : (
-        <Dashboard className={!isLog && 'dashboard'}/>
+        <Dashboard className={!isLog && 'dashboard'}  setIsLog={setIsLog}/>
       )}
     </div>
   );
