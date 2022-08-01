@@ -2,7 +2,6 @@ import React from 'react';
 import './style.css';
 
 function Card({candidates}, isActive, handleSelectCandidate) {
-  console.log(isActive);
   return (
     <div className='cards'>
       {candidates.map(({img, name, lastName}, index) => {

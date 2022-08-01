@@ -9,7 +9,7 @@ function NavBar(setIsLog) {
     <nav className="navbar">
       <div className="nav-wrapper">
         <a className="brand-logo">Logo</a>
-        <h2>Elecciones 2020</h2>
+        <h2>Elecciones 2022</h2>
         <button className="logout-button" onClick={handleClick}>
           Cerrar sesión
         </button>
