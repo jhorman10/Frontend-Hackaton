@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Card from './components/Card';
-import SecurityMsn from './components/SecurityMsn';
-import candidates from './components/data/candidates.json';
-import msn from './components/data/msn.json';
+import SecurityMsn from './../components/SecurityMsn';
+import candidates from './../components/data/candidates.json';
+import msn from './../components/data/msn.json';
 import './style.css';
 
 function VotePage() {
