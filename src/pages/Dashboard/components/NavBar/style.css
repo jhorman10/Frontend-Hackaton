@@ -26,9 +26,17 @@
     z-index: 1;
 }
 
-.brand-logo{
-    font-size: 1.5rem;
+.nav-wrapper button {
+    width: 200px;
+    margin-right: 20px;
+    margin-top: 10px;
+    background-color: #8a0c0c;
+    color: white;
     font-weight: bold;
-    color: #000;
-    margin-left: 1rem;
+}
+
+.brand-logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
 }

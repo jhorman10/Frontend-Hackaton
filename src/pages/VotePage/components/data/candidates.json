@@ -1,26 +1,30 @@
 [
     {
-        "img": "",
+        "img": "https://assets.mockflow.com/app/wireframepro/company/C0d31fffd78544f66b69d1ab41ea1933b/projects/MHtEfVAkBh/images/Md4ea02f07bae339380425e51b39b97181591855697639.svg",
         "name": "Daniel",
-        "lastName": "Fernandez"
+        "lastName": "Fernandez",
+        "partido": "Liberal"
     },
     {
-        "img": "",
+        "img": "https://assets.mockflow.com/app/wireframepro/company/C0d31fffd78544f66b69d1ab41ea1933b/projects/MHtEfVAkBh/images/Mb356c1a1b8c4b89a87f1e65183de04081591934237925.svg",
         "name": "Carlos",
-        "lastName": "Quintero"
+        "lastName": "Quintero",
+        "partido": "Conservador"       
     },
     {
-        "img": "",
+        "img": "https://assets.mockflow.com/app/wireframepro/company/C0d31fffd78544f66b69d1ab41ea1933b/projects/MHtEfVAkBh/images/Md4ea02f07bae339380425e51b39b97181591855697639.svg",
         "name": "Marcos",
-        "lastName": "Orozco"
+        "lastName": "Orozco",
+        "partido": "Liberal"
     },
     {
-        "img": "",
+        "img": "https://assets.mockflow.com/app/wireframepro/company/C0d31fffd78544f66b69d1ab41ea1933b/projects/MHtEfVAkBh/images/Mb356c1a1b8c4b89a87f1e65183de04081591934237925.svg",
         "name": "Juan",
-        "lastName": "Lopez"
+        "lastName": "Lopez",
+        "partido": "Conservador"
     },
     {
-        "img": "",
+        "img": "https://assets.mockflow.com/app/wireframepro/company/C0d31fffd78544f66b69d1ab41ea1933b/projects/MHtEfVAkBh/images/Ddfad8ba74fbe3e586e305728f70394fd",
         "name": "Blanco",
         "lastName": "Blanco"
     }

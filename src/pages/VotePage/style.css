@@ -30,13 +30,14 @@
   flex-direction: row;
   flex-wrap: nowrap;
   align-content: center;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 50vw;
+  margin-top: 20px;
   margin-bottom: 80px;
 }
 .vote-button {
-  width: 100px;
+  width: 500px;
   height: 50px;
   font-size: 1rem;
   font-weight: bold;
@@ -48,7 +49,7 @@
   cursor: pointer;
 }
 .restart-button {
-  width: 100px;
+  width: 500px;
   height: 50px;
   font-size: 1rem;
   font-weight: bold;
